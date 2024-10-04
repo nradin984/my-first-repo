@@ -1,0 +1,19 @@
+.element {
+  background-color: blueviolet;
+  border: 5px solid yellowgreen;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  border: 5px grey;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-2 {
+  align-self: center;
+}

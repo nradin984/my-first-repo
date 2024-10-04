@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Trka F1 - Prijava </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> Prijava za trku </h1>
+    <form>
+        <img src="f1.jpg" alt="f1 slika">
+        <p>izaberite tim</p>
+        <input type="radio" name = "team" value="ferrari" req>Ferrari<br>
+        <input type="radio" name="team"value="mercedes">Mercedes-benz<br>
+        <input type="radio" name="team" value="redbull">Red Bull<br><br>
+        
+        <label for="first name">unesite vase ime :</label>
+        <input type="text"id="first name" placeholder="unesite vase ime " name="first name"reqired>
+        <br><br>
+        <label for="last name">unesite vase prezime:</label>
+        <input type="text" id="last name" placeholder="unesite vase prezime" name="last name"reqired>
+        <br><br>
+        <label for="email">unesite email:</label>
+        <input type="text" id="email" placeholder="unesite vas email">
+        <br><br>
+
+        <p>Koliko imate godina</p>
+        <input type="radio" name="age" value ="Junior">18-24<br>
+        <input type="radio" name="age" value ="Medior">25-34<br>
+        <input type="radio" name="age" value ="Senior">35-50<br><br>
+
+        <label for="adress">unesite adresu</label><br>
+        <textarea name="adress" id="adress" cols="30" rows="10" placeholder=" vasa adresa..." name="adress"></textarea><br><br>
+
+        <label for="tyre"> sa kojim gumama zapocinjete trku?</label><br><br>
+        <select name="tyre" id="question"></select>
+        <option value="s">Soft</option>
+        <option value="m">Medium</option>
+        <option value="h">Hard</option>
+        </select>
+        <br><br>
+       
+
+        <input type="submit" value="posalji prijavu ">
+        </form>
+        </body>
+        </html>
+        

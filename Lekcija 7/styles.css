@@ -1,0 +1,32 @@
+h1 {
+  color: rgba(25, 12, 255, 0.8);
+  font-style: italic;
+}
+
+.intro {
+  border-top: 3px dashed orange;
+  background-color: #e3e3e3;
+}
+#intro-text {
+  color: #569301;
+}
+
+.inventions {
+  background-color: #ffe99f;
+  border: 3px solid #ff8d8d;
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: #ffe99f; */
+}
+
+#portrait {
+  border: 3px dotted purple;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+a{
+    background-color: #ffce93;
+}
+
+

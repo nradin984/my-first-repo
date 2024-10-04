@@ -1,0 +1,46 @@
+body{
+    background-color:lightblue;
+
+
+}
+h1{
+ /* color: blue*/
+  color: rgba(0, 0, 255, 0.1) 
+  /*apsolutne vrednosti*/
+  /*font-size:12px*/
+
+
+  /*relativne vrednosti*/
+  /*em 12 px 1em=12px*
+  /*vh(view port hight) vw (view port width)*/
+  /*font size: 10vw*/
+
+}
+
+
+  p{
+  font-size :12px;
+  line-height :4em;/*24px*/
+}
+img{
+    width: 200px;
+}
+
+label{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    color: blueviolet;
+    background-color: brown;
+}
+img{
+   /* border-style:solid;
+    border-width:3px;
+    border-color: blueviolet;*/
+   /* border-top-style:dotted;
+    border-top-color:orange ;*/
+
+    /*border-top :10px dotted orange;*/
+    border: 3px solid blueviolet;
+}

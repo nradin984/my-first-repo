@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forme </title>
+</head>
+
+<body>
+    <h1>HTML Forme </h1>
+<form> 
+    <label for="username">unesite korisnicko ime</label>
+    <input type="text" id ="username" placeholder="unesite korisnicko ime" name="username">
+    <br><br>
+    <label for="email">unesite email:</label>
+    <input type="email" id = "email" name="email"placeholder="unesite email">
+    <br><br>
+    <label for="password">unesite password:</label>
+    <input type="password" id="password" placeholder="unesite lozinku"name="password">
+    <p>izaberite pol:</p>
+    <input type="radio" name="gender"value="fimale">zensko<br>
+    <input type="radio" name="gender"value="male">musko<br>
+    <input type="radio" name="gender" value="other">neodredjeno<br><br>
+
+    <label for="question"></label>  
+    <select name="question" id="question">
+       <option value="q1">koja je tvoja omiljena boja?</option> 
+       <option value="q2">koji je tvoj omiljeni programski jezik?</option>
+       <option value="q3">ko ti je najbolji drug?</option>  
+    </select>
+    <br><br>
+    <label for="odgovor:">odgovor</label>
+    <input type="text"id= "answer"name= "answer">
+    <br><br>
+
+    <label for="bio">Tvoja biografija</label><br>
+    <textarea name="" id=""cols ="50" rows="10"placeholder = "o tebi..."name= "bio"></textarea>
+
+    <input type="submit">
+</form>
