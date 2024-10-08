@@ -1,7 +1,0 @@
-Napravi stranicu koja ce sadrzati naslov "TABLE TENNINS" koji treba da ima velicinu 20 i da bude bold-ovana.
-Ispod naslova treba da se nalazi tabela koja ce sadrazati Podatke koji se nalaze u JSOn fajlu tennis.json.
-Stil tabele moze biti proizvoljan.
-
-1. Napraviti obicnu stranicu, bez tabele (samo sa naslovom)
-2. Istraziti sta je to JSON fajl i na koji nacin podaci koji se nalaze u njemu mogu da se prebace u tabelarni oblik.
-3. napisati logiku koja ce da vadi podatke iz JSON fajla i ispisuje u tabeli.
