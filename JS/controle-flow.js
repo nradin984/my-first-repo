@@ -1,5 +1,25 @@
-function maxNum(num1,num2){
-    return num1>=num2 ? num1 : num2;
+const dog={
+    name:'max' ,
+    breed:'Dachshund',
+    age:5,
+    WeightInPounds:12,
+    eat:function(){
+        console.log('chomp'!);
+    },
+    bark:(){
+        console.log('woof'!);
+    }
 }
 
-console.log(maxNum(2,1));
+//const  anoderDog={
+    //name:'Marley',
+    //breed: 'Chocolate Lab',
+    //age:3,
+    //WeightInPounds:60,
+    //eat:function(){
+        ///console.log('Chomp!');
+
+    //}
+
+
+//}
